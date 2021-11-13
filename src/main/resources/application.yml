@@ -1,0 +1,11 @@
+server:
+  port: 9098
+spring:
+  application:
+    name: rabbitmq-produer
+  rabbitmq:
+    host:
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
